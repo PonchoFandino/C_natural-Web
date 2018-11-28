@@ -1,0 +1,13 @@
+{
+    "historias": [
+      { "id": 1, 
+        "titulo":  "Grabado personalizado",
+        "descripcion": "Una forma realmente especial de MARCAR la diferencia al recompensar, reconocer o simplemente para aquellas ocasiones especiales, con nuestros productos encontraras el detalle adecuado.", 
+        "image": "https://i.ytimg.com/vi/6_snJ4Lp_dg/maxresdefault.jpg" },
+        { "id": 2, 
+          "titulo":  "Trabajo 100% a mano",
+          "descripcion": "Con gran maestría nuestros artesanos cuidan cada detalle, con la dedicación que merece una pieza única", 
+          "image": "http://www.artesaniasdecolombia.com.co/PortalAC/images/madera-especial-artesanias-de-colombia-13.jpg" }
+    ]
+      
+}

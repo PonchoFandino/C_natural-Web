@@ -1,0 +1,159 @@
+.bodyFoot{
+    background: rgb(190, 188, 188);
+    width: 100%;
+    /* height: 230px; */
+    text-align: left;
+}
+.backF{
+    background: rgba(233, 233, 233, 0.781);
+    width: 100%;
+    height: 220px;
+    /* border-top: 0.5px solid #563530; */
+    border-top-width: 80% 0.5px solid #563530;
+}
+.navFoot{
+    margin: 80px 170px;
+    display: grid;
+    position: absolute;
+}
+.buttonF{
+    display: block;
+    float: left;
+    background: none;
+    border:none;
+    padding: 0 7px;
+    color:#563530;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pA2{
+    font-weight: lighter;
+    color: #56353075;
+    margin-top: -0px;
+    font-size: 20px;
+    height: auto;
+    padding: 0 5px;
+    cursor: pointer;
+}
+  .pA2:hover{
+    color: #563530;
+
+}
+.footF{
+    text-align: center;
+    color: #563530;
+    font-family:  'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    display: block;
+    margin: auto;
+    margin-top: -20px;
+
+}
+.logoF{
+    display: grid;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin: 50px 150px;
+    /* margin-left: 90% */
+}
+.fa-facebook-f{
+    position: relative;
+    display: grid;
+    float: left;
+    cursor: pointer;
+    color:#56353075;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.fa-facebook-f:hover{
+    color:#563530;
+}
+.fa-instagram{
+    position: relative;
+    display: grid;
+    float: left;
+    cursor: pointer;
+    color: #56353075;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.fa-instagram:hover{
+    color: #563530;
+}
+.btnF{
+    position: relative;
+    display: flex;
+    float: right;
+    background: none;
+    outline: none;
+    border:none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: -550px;
+}
+.btnI{
+    position: relative;
+    display: grid;
+    float: right;
+    background: none;
+    outline: none;
+    border:none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-right: -590px;
+}
+.follow{
+    width: 50px;
+    height: 20px;
+    margin: 20px 150px;
+    display: grid;
+    float: right;
+    color: #56353075;
+    font-family:  'Open Sans Condensed', sans-serif;
+}
+.info{
+    width: 50px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 250px;
+    display: grid;
+    float: right;
+    color: #56353075;
+    font-family:  'Open Sans Condensed', sans-serif;
+}
+.infoDiv{
+    margin-right: -80px;
+    margin-top: 50px;
+    display: grid;
+    float: right;
+    color: #56353075;
+    font-family:  'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+.infoWa{
+    text-decoration: none;
+    color: #56353075;
+}
+.infoWa:hover{
+    color: #563530;
+}
+.fa-whatsapp{
+    text-decoration: none;
+    cursor: pointer;
+    color: #56353075;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.fa-whatsapp:hover{
+    color: #563530;
+}

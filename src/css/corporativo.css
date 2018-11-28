@@ -1,0 +1,148 @@
+.nav{
+    width: 100%;
+    height: 40px;
+    background: rgb(233, 233, 233);
+    
+}
+.spaceC{
+    position: relative;
+    display: grid;
+    margin-top: 0px;
+    width: 91%;
+    height: 100%;
+    background:rgb(233, 233, 233);
+    align-items: center;
+    padding: 1% 4.5%;
+    
+}
+.historiaDiv{
+    position: relative;
+    display: grid;
+    float: left;
+    width: 100%;
+    margin: 0 0.5%;
+    text-align: center;
+    /* margin-left: 10px; */
+    height: auto;
+    max-height: auto;
+    /* background: rgb(214, 214, 214); */
+}
+.contenido {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #563530;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:20px;
+}
+.imgContenido{
+    width: 100%;
+    height: 100%;
+}
+.imgHi{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+.tituloC{
+    color: #DC7627;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: grid;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    background: rgb(233, 233, 233);
+    text-align: center;
+    float: left;  
+    font-weight: lighter;
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+
+.infoC{
+    margin: auto;
+    width:40%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 3%;
+    text-align: center;
+    
+ }
+
+.Historia{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.301);
+}
+.moreDiv{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+.idea{
+    width: 50px;
+    height: 50px;
+    background: #56353075;
+    border-radius: 50%;
+}
+.idea1{
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    margin-top: 2px;
+    background: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+.ideaTxt{
+    display: flex;
+    float: left;
+    background: none;
+    color: #56353075;
+    padding: 10px;
+    width: 30%;
+
+}
+.ideaTxt1{
+    margin-right: 30%;
+    display: flex;
+    float: right;
+    background:  none;
+    color: #56353075;
+    padding: 10px;
+    width: 30%;
+    
+    
+}
+.infoIdea{
+    width: 90%;
+}
+.ideaTxt2{
+    margin-right: -4%;
+    margin-top: -12%;
+    display: flex;
+    float: right;
+    background:  none;
+    color: #56353075;
+    padding: 10px;
+    width: 30%;
+    
+    
+}
+.ideaBtn{
+    margin-top: 15px;
+    padding: 5px;
+    background: none;
+    border: 1px solid #56353075;
+    border-radius: 5px;
+    color: #56353075;
+    cursor: pointer;
+}
+.ideaBtn:hover{
+    border: 1px solid #56353075;
+    background: #56353075;
+    color: rgb(233, 233, 233);
+}

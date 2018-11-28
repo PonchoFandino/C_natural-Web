@@ -1,0 +1,10 @@
+{
+    "Items": [
+      { "id": 1, "ref": "C#1","descripcion": "Joyero mini una tapa", "largo": "10.5", "alto":"6","ancho":"6", "peso":"0.5", "precio": 9.9, "image": "http://cdn.ebaumsworld.com/mediaFiles/picture/2306736/83620223.jpg", "color":"Vino" },
+      { "id": 1, "ref": "C#2","descripcion": "Joyero mini dos tapas", "largo": "13.5", "alto":"8","ancho":"8", "peso":"1", "precio": 12.9, "image": "http://alegorias.es/wp-content/uploads/2017/03/esculturas-3d-madera-alegorias.es-1.jpg", "color":"Cafe"},
+      { "id": 1, "ref": "C#3","descripcion": "Joyero mini dos tapas", "largo": "15.5", "alto":"10","ancho":"10", "peso":"1.5", "precio": 15.9, "image": "https://static1.squarespace.com/static/51a777aee4b09a4e2368ab64/51a777afe4b09a4e2368ab6f/51a91a3de4b0687273e31d07/1370036799231/caballo1.jpg", "color":"Chocolate"},
+      { "id": 1, "ref": "C#4","descripcion": "Joyero mini dos tapas", "largo": "17.5", "alto":"12","ancho":"12", "peso":"2", "precio": 17.9, "image": "https://i.pinimg.com/originals/03/64/d3/0364d31c9bc716c254472c9f0fdc276d.jpg", "color":"Cafe"}
+     
+    ]
+      
+}
