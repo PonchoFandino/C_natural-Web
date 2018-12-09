@@ -10,6 +10,7 @@ body{
   height: 30px;
   background: rgb(233, 233, 233);
   z-index: 2;
+  border-bottom:1px solid #56353075;
   
 }
 nav{
@@ -18,6 +19,7 @@ nav{
   height: 30px;
   background: rgb(233, 233, 233);
   z-index: 1;
+  border-bottom:1px dashed #56353075;
   
 }
 .wellcome2{
