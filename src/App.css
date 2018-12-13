@@ -6,22 +6,14 @@ body{
   display: flex;
   float: left;
   width: 100%;
-  top: 1%;
-  height: 30px;
-  background: rgb(233, 233, 233);
+  top: 0%;
+  height: 60px;
+  background: #D7D4C8;
   z-index: 2;
-  border-bottom:1px solid #56353075;
+  border-bottom:1px solid #b6a68e;
   
 }
-nav{
-  position: fixed;
-  width: 100%;
-  height: 30px;
-  background: rgb(233, 233, 233);
-  z-index: 1;
-  border-bottom:1px dashed #56353075;
-  
-}
+
 .wellcome2{
   background: rgba(0, 0, 0, 0.281);
   height: 752px;
@@ -32,20 +24,14 @@ nav{
   float: left;
   background: none;
   border:none;
-  border-left: 1px solid #56353075;
-  border-right: 1px solid #56353075;
+  border-left: 0.5px solid #84716B;
   padding: 7px;
-  color: #56353075;
+  color: #84716B;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
   cursor: pointer;
   text-decoration: none;
-}
-.button1:hover{
-  /* color: #563530; */
-  text-shadow: 1px 1px 2px 3px #221c1b;
-  /* background: rgb(233, 233, 233); */
-  /* border:none; */
+  margin-top:20px;
 }
 
 
@@ -54,14 +40,31 @@ nav{
   float: left;
   background: none;
   border:none;
-  border-right: 1px solid #56353075;
   padding: 7px;
   color:rgb(233, 233, 233);
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: lighter;
   font-size: 25px;
   text-decoration: none;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: -15px;
+}
+.button3{
+  display: flex;
+  position: relative;
+  float: right;
+  background: none;
+  border:none;
+  border-left: 0.5px solid #84716B;
+  padding: 7px;
+  color: #84716B;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top:20px;
+  margin-left: 53%;
+  text-align: right;
 }
 
 .nav1{
@@ -70,7 +73,7 @@ nav{
   float: left;
   margin-bottom: 0;
   margin-left: 1%;
-  height: 20px;
+  height: 40px;
  
 }
 .pA{
@@ -81,7 +84,18 @@ nav{
 }
 .pA:hover{
   /* background: rgb(228, 147, 85); */
-  color:  rgb(228, 147, 85);
+  color:  #56353075;
+}
+.pa{
+  margin-top: -20px;
+  margin-left: 30px;
+  font-size: 30px;
+  height: 40px;
+  padding: 0 15px;
+  text-align: right;
+}
+.pa:hover{
+  color:  #56353075;
 }
 .logo{
   margin: 1%;
@@ -94,8 +108,17 @@ nav{
 }
 .home{
   float: left;
-    width: 35px;
-    margin: -12.5px 10px;
+  width: 130px;
+  margin: 0px 10px;
+}
+.shopCard{
+  display: flex;
+  float: right;
+  width: 30px;
+  margin: 15px 0;
+  margin-left: -100px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 
@@ -103,11 +126,11 @@ nav{
   display: block;
   float: right;
   margin:auto;
-  margin-right: 44%;
-  top: 150px;
-  font-family: 'Amatic SC', cursive;
-  color: rgb(233, 233, 233);
-  font-size: 70px;
+  margin-right: 42%;
+  margin-top: -5%;
+  font-family: 'Courier New', Courier, monospace;
+  color: #D7D4C8;
+  font-size: 50px;
 }
 
 

@@ -7,7 +7,8 @@ import Corporativo from '../components/corporativo';
 import Proyectos from '../components/proyectos';
 import Nosotros from '../components/nosotros';
 import Contacto from '../components/contacto';
-import logoHome from '../images/mariposaN.svg'
+import logoHome from '../images/cnatural.svg';
+import Canasta from '../images/prueba1.svg'
 
 
 class Nav extends Component {
@@ -45,6 +46,7 @@ class Nav extends Component {
             <Link  className="button1" to="/proyectos/" ><p className="pA">Proyectos</p></Link>
             <Link  className="button1" to="/nosotros/" ><p className="pA">Nosotros</p></Link>
             <Link  className="button1" to="/contacto/" ><p className="pA">Contacto</p></Link>
+            <Link  className="button3" to="/canasta/" ><p className="pa"><img src={Canasta} alt="" className="shopCard"/>0</p></Link>
           </div>
         </div>
         </nav>
