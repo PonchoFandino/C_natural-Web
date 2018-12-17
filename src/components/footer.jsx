@@ -20,13 +20,13 @@ render(){
             (57) 80 111 84
             <a  className="infoWa" href="https://wa.me/+5718011184"><i class="fab fa-whatsapp"></i> +57 8011184 </a>
             </div>
-            <button className="btnF"><a href="https://www.facebook.com/C_Natural-308566953084665/?modal=admin_todo_tour"><i class="fab fa-facebook-f"></i></a></button>
+            <button className="btnF"><a href="https://fb.me/CNaturalTaller"><i class="fab fa-facebook-f"></i></a></button>
             <button className="btnI"><a href="https://www.facebook.com/C_Natural-308566953084665/?modal=admin_todo_tour"><i class="fab fa-instagram"></i></a></button>
             <img src={cnaturalF} alt="logo" className="logoF"/>
            
             <div className="navFoot">
-             <Link onClick={this.changeMargin} className="buttonF" to="/nosotros/" ><p className="pA2">Nosotros</p></Link>
-            <Link onClick={this.changeMargin} className="buttonF" to="/contacto/" ><p className="pA2">Contacto</p></Link>
+             <Link  className="buttonF" to="/nosotros/" ><p className="pA2">Nosotros</p></Link>
+            <Link  className="buttonF" to="/contacto/" ><p className="pA2">Contacto</p></Link>
           </div>
             </div>
             <div>

@@ -1,6 +1,11 @@
-body{
-  text-align: center;
+/*original*/
+.contenedor{
+  width: 100%;
+  height: auto;
+  margin:0;
+  overflow: hidden;
 }
+
 .space{
   position: relative;
   display: grid;
@@ -42,13 +47,13 @@ body{
     margin-left: 5%;
     width: 120px;
     height: 140px;
-    background-image: url(../mariposa1.svg);
+    background-image: url(../images/mariposa1.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     float: left;
   }
   .mariposa:hover{
-    background-image: url(../mariposa1A.svg);
+    background-image: url(../images/mariposa1A.svg);
     /* background-size: 100%; */
     background-repeat: no-repeat;
   
@@ -60,13 +65,13 @@ body{
     margin-right: 7%;
     width: 80px;
     height: 100px;
-    background-image: url(../mariposa2.svg);
+    background-image: url(../images/mariposa2.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     float: right;
   }
   .mariposa2:hover{
-    background-image: url(../mariposa2A.svg);
+    background-image: url(../images/mariposa2A.svg);
     /* background-size: 100%; */
     background-repeat: no-repeat;
   
@@ -147,9 +152,13 @@ body{
     width: 23%;
     height: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+    cursor:pointer;
+   
   }
+  .seccion:hover{
+    background: #D7D4C8;
+  }
+
   .seccion2{
     background:none;
     outline: none;
@@ -162,6 +171,11 @@ body{
     width: 23%;
     height: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+    cursor:pointer;
+    
+  }
+  .seccion2:hover{
+    background: #D7D4C8;
   }
   .titPromo{
     display: flex;
@@ -173,8 +187,8 @@ body{
     font-size:40px;
     text-align: center;
     margin-top: -0%;
-    margin-bottom: 5%;
-    margin-left: 12%;
+    margin-bottom: 3%;
+    margin-left: 25%;
   }
   .titPromo2{
     display: flex;
@@ -221,7 +235,7 @@ body{
     position: relative;
     float: left;
     margin-top: 0px;
-    margin-left: 15%;
+    margin-left: 28%;
     width: 45%;
   }
   .ellas{
@@ -247,4 +261,151 @@ body{
     margin-top: 0px;
     margin-left: 40%;
     width: 25%;
+  
+} 
+/* tablet*/
+  @media only screen and (min-width:1024px) and (max-width: 1365px){
+    .space{
+      position: relative;
+      display: grid;
+      margin-top: 0px;
+      width:100%;
+      height: auto;
+      background: #D0CABD;
+      align-items: center;
+      padding: 0;
+      
+    }
+    .wellcome3{
+        background-image: url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: 50%;
+        width: 100%;
+        margin-top: 42%;
+        height: 302px;
+      }
+    .wellcome2{
+        margin-top: -46.8%;
+        background:rgba(0, 0, 0, 0.281);
+        height: 302px;
+      }
+     
+    .logo2{
+        display: flex;
+        margin:auto;
+        margin-top: -21.5%;
+        margin-left: 35.5%;
+        margin-bottom: auto;
+        height: 90%;
+        border: none;
+        text-align: center;
+        float: left;
+      }
+      
+  }
+  /*monitor standar 21"*/
+  @media only screen and (min-width:1366px) and (max-width: 1720px){
+    .space{
+      position: relative;
+      display: grid;
+      margin-top: 30%;
+      width:100%;
+      height: auto;
+      background: #D0CABD;
+      align-items: center;
+      padding: 0;
+      
+    }
+    .wellcome3{
+        background-image: url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: 50%;
+        width: 100%;
+        margin-top: 42%;
+        height: 302px;
+      }
+    .wellcome2{
+        margin-top: -44%;
+        background: rgba(0, 0, 0, 0.281);
+        height: 302px;
+      }
+     
+    .logo2{
+        display: flex;
+        margin:auto;
+        margin-top: -20%;
+        margin-left: 35.5%;
+        margin-bottom: auto;
+        height: 90%;
+        border: none;
+        text-align: center;
+        float: left;
+      }
+      
+  }
+  /*movil standar*/
+@media screen and (max-width:740px){
+    .space{
+      /* position: relative;*/
+      display: block; 
+      margin-top: -75%;
+      width:100%;
+      height: auto;
+      background: #D0CABD;
+      align-items: center;
+      padding: 0;
+      
+    }
+    .wellcome3{
+        background-image: none;
+        background-size: 100%;
+        width: 100%;
+        margin-top: 82%;
+        height: 302px;
+        
+      }
+    .wellcome2{
+        margin-top: -84%;
+        background:none;
+        width: 100%;
+        height: 302px;
+        padding: 0;
+        
+      }
+     
+    .logo2{
+        display: none;
+      }
+      .logo1{
+        display: none;
+        
+      }
+      .mariposa2{
+        display: none;
+        
+      }
+      
+      .mariposa{
+        display: none;
+        
+      }
+      .wellcomeMargin{
+        display: none;
+       
+        
+      }
+      .seccion{
+        display:block;
+        width: 100%;
+       
+       
+      }
+      .seccion2{
+        display:block;
+        margin-top:1%;
+        margin-left: -0%;
+        width: 100%;
+        border:none;
+        
+        
+      }
+      
   }

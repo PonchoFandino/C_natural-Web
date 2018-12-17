@@ -1,15 +1,18 @@
 .bodyFoot{
-    background: rgb(190, 188, 188);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color:#84716B;
+    background: #D7D4C8;
     width: 100%;
     /* height: 230px; */
     text-align: left;
 }
 .backF{
-    background: rgba(233, 233, 233, 0.781);
+    background:#D7D4C8;
     width: 100%;
     height: 220px;
     /* border-top: 0.5px solid #563530; */
-    border-top-width: 80% 0.5px solid #563530;
+    border-top-width: 80% 0.5px solid #84716B;
 }
 .navFoot{
     margin: 80px 170px;
@@ -23,14 +26,14 @@
     border:none;
     padding: 0 7px;
     color:#563530;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     font-size: 20px;
     text-decoration: none;
 }
 .pA2{
     font-weight: lighter;
-    color: #56353075;
+   
     margin-top: -0px;
     font-size: 20px;
     height: auto;
@@ -38,13 +41,13 @@
     cursor: pointer;
 }
   .pA2:hover{
-    color: #563530;
+    color: #56353075;
 
 }
 .footF{
     text-align: center;
     color: #563530;
-    font-family:  'Open Sans Condensed', sans-serif;
+    /* font-family:  'Open Sans Condensed', sans-serif; */
     font-weight: lighter;
     display: block;
     margin: auto;
@@ -65,24 +68,24 @@
     display: grid;
     float: left;
     cursor: pointer;
-    color:#56353075;
+    color: #84716B;
     text-decoration: none;
     font-weight: lighter;
 }
 .fa-facebook-f:hover{
-    color:#563530;
+    color:#56353075;
 }
 .fa-instagram{
     position: relative;
     display: grid;
     float: left;
     cursor: pointer;
-    color: #56353075;
+    color: #84716B;
     text-decoration: none;
     font-weight: lighter;
 }
 .fa-instagram:hover{
-    color: #563530;
+    color: #56353075;
 }
 .btnF{
     position: relative;
@@ -96,7 +99,7 @@
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
-    margin-right: -550px;
+    margin-right: -570px;
 }
 .btnI{
     position: relative;
@@ -110,7 +113,7 @@
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
-    margin-right: -590px;
+    margin-right: -610px;
 }
 .follow{
     width: 50px;
@@ -118,42 +121,42 @@
     margin: 20px 150px;
     display: grid;
     float: right;
-    color: #56353075;
-    font-family:  'Open Sans Condensed', sans-serif;
+    color: #84716B;
+    /* font-family:  'Open Sans Condensed', sans-serif; */
 }
 .info{
     width: 50px;
     height: 20px;
     margin-top: 20px;
-    margin-right: 250px;
+    margin-right: 260px;
     display: grid;
     float: right;
-    color: #56353075;
-    font-family:  'Open Sans Condensed', sans-serif;
+    color: #84716B;
+    /* font-family:  'Open Sans Condensed', sans-serif; */
 }
 .infoDiv{
-    margin-right: -80px;
+    margin-right: -120px;
     margin-top: 50px;
     display: grid;
     float: right;
-    color: #56353075;
-    font-family:  'Open Sans Condensed', sans-serif;
+    color: #84716B;
+    /* font-family:  'Open Sans Condensed', sans-serif; */
     font-size: 20px;
 }
 .infoWa{
     text-decoration: none;
-    color: #56353075;
+    color: #84716B;
 }
 .infoWa:hover{
-    color: #563530;
+    color: #56353075;
 }
 .fa-whatsapp{
     text-decoration: none;
     cursor: pointer;
-    color: #56353075;
+    color: #84716B;
     text-decoration: none;
     font-weight: lighter;
 }
 .fa-whatsapp:hover{
-    color: #563530;
+    color: #56353075;
 }

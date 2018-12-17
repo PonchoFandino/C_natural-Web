@@ -5,7 +5,7 @@ import '../css/slider.css';
 class Slider extends Component{
 render(){
     return(
-        <div>
+        <div className="contenedor">
                 
                <div className="slider">
                 <ul className="backgroundSlider">

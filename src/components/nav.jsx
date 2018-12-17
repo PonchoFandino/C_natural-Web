@@ -36,18 +36,23 @@ class Nav extends Component {
     return (
       
     <Router> 
+      
       <div className="App">
-        <nav>
+        <nav className="contenedor">
         <div className="navBar"  id="navi">
-          <div className="nav1">
             <Link  className="button2" to="/" ><p className=""><img src={logoHome} alt="" className="home"/></p></Link>
-            <Link  className="button1" to="/productos/" ><p className="pA">Productos</p></Link>
-            <Link  className="button1" to="/corporativo/" ><p className="pA">Corporativo</p></Link>
-            <Link  className="button1" to="/proyectos/" ><p className="pA">Proyectos</p></Link>
-            <Link  className="button1" to="/nosotros/" ><p className="pA">Nosotros</p></Link>
-            <Link  className="button1" to="/contacto/" ><p className="pA">Contacto</p></Link>
-            <Link  className="button3" to="/canasta/" ><p className="pa"><img src={Canasta} alt="" className="shopCard"/>0</p></Link>
+        <input type="checkbox" id="main"/>
+        <label for="main" className="menu"><i class="fas fa-ellipsis-v"></i></label>
+          <div className="nav1">
+            
+           <li><Link  className="button1" to="/productos/" ><p className="pA">Productos</p></Link></li> 
+           <li><Link  className="button1" to="/corporativo/" ><p className="pA">Corporativo</p></Link></li>
+           <li><Link  className="button1" to="/proyectos/" ><p className="pA">Proyectos</p></Link></li>
+           <li><Link  className="button1" to="/nosotros/" ><p className="pA">Nosotros</p></Link></li>
+           <li><Link  className="button1" to="/contacto/" ><p className="pA">Contacto</p></Link></li>
+           <li><Link  className="button1" to="/canasta/" ><p className="pa"><img src={Canasta} alt="" className="shopCard"/>0</p></Link></li>
           </div>
+          
         </div>
         </nav>
       

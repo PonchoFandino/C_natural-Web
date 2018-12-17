@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../css/styleDashboard.js';
 import '../css/dashboard.css';
 import Slider from './slider';
-import cnaturalw from '../cnaturalW.svg';
+import cnaturalw from '../images/cnaturalW.svg';
 import Footer from  './footer';
 import mariposa3 from '../images/mariposa3.svg';
 import caminoB from '../images/caminoB.svg';
@@ -17,6 +17,7 @@ class Dashboard extends Component{
 
     render(){
         return(
+            <div className="contenedor">
              <div className="wellcome3">
               <Slider/>
             
@@ -53,6 +54,7 @@ class Dashboard extends Component{
                 </div>
              
 
+            </div>
             </div>
         )
     }
