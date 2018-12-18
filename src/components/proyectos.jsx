@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import Progreso from './progreso'
 
 class Proyectos extends Component{
 
     render(){
         return(
-            <div>
-                En esto trabajamos...
+            <div className="contenedor">
+               <Progreso/>
             </div>
         )
     };

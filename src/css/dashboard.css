@@ -7,8 +7,8 @@
 }
 
 .space{
-  position: relative;
-  display: grid;
+  /* position: relative; */
+  display: block;
   margin-top: 0px;
   width:100%;
   height: auto;
@@ -264,10 +264,10 @@
   
 } 
 /* tablet*/
-  @media only screen and (min-width:1024px) and (max-width: 1365px){
+  @media screen and (min-width:1024px) and (max-width: 1365px){
     .space{
-      position: relative;
-      display: grid;
+      /* position: relative; */
+      display: block;
       margin-top: 0px;
       width:100%;
       height: auto;
@@ -284,7 +284,7 @@
         height: 302px;
       }
     .wellcome2{
-        margin-top: -46.8%;
+        margin-top: -23.8%;
         background:rgba(0, 0, 0, 0.281);
         height: 302px;
       }
@@ -346,12 +346,13 @@
     .space{
       /* position: relative;*/
       display: block; 
-      margin-top: -75%;
+      margin-top: -80%;
       width:100%;
       height: auto;
       background: #D0CABD;
       align-items: center;
-      padding: 0;
+      padding: 5%;
+      box-sizing: border-box;
       
     }
     .wellcome3{

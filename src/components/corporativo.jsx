@@ -7,7 +7,8 @@ import Idea from '../images/creativity.svg';
 import Coordination from '../images/coordination.svg';
 import catalogo from '../images/catalogue.svg';
 import image from '../images/attach.svg';
-import Muestra from '../images/corpMuestra2.svg'
+import Muestra from '../images/corpMuestra2.svg';
+import Progreso from './progreso'
 
 class Corporativo extends Component{
     
@@ -16,16 +17,22 @@ class Corporativo extends Component{
         
         return(
             <div>
-               
+               <Progreso/>
                 <div className="spaceC">
+                
+                
+                
                 <div className="divImgM">
                 <img src={Muestra} className="imgM"/>
+                
                 </div>
                 
                   <div className="">
-
+                  
                     <Contenido1/>
+                    
                   </div>
+                 
                   <div className="moreDiv">
                     <div className="ideaTxt">
                         <div className="infoIdea">
@@ -34,6 +41,7 @@ class Corporativo extends Component{
                             <p>nuestro compromiso es entregar un producto para que des la mejor impresión</p>
                         </div>
                     </div>
+                   
                     <div className="ideaTxt1">
                         <div className="infoIdea">
                             <img src={Coordination} className="idea"/>
@@ -66,7 +74,7 @@ class Corporativo extends Component{
                         <button className="ideaBtn" id="btnCorp"><p>Enviar</p></button>
                         
                     </form>
-          
+                    
                 </div>
                 
                 </div>

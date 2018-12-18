@@ -1,10 +1,11 @@
+/*  */
 .bodyFoot{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     color:#84716B;
     background: #D7D4C8;
     width: 100%;
-    /* height: 230px; */
+    height: auto;
     text-align: left;
 }
 .backF{
@@ -52,6 +53,7 @@
     display: block;
     margin: auto;
     margin-top: -20px;
+    margin-bottom: 5%;
 
 }
 .logoF{
@@ -136,7 +138,7 @@
 }
 .infoDiv{
     margin-right: -120px;
-    margin-top: 50px;
+    margin-top: 45px;
     display: grid;
     float: right;
     color: #84716B;
@@ -159,4 +161,92 @@
 }
 .fa-whatsapp:hover{
     color: #56353075;
+}
+.num{
+    margin-top: -15%;
+    margin-left: 15%;
+    margin-bottom: 0%;
+}
+.num1{
+    display:none;
+}
+@media screen and (max-width:740px){
+.navFoot{
+    display: none;
+}
+.logoF{
+    display: none;
+}
+.follow{
+    display: none;
+}
+
+.info{
+    margin-top: 0px;
+    margin-right: 0px;
+    display:none;
+}
+.infoDiv{
+    text-align: center;
+    margin-right: 40%;
+    margin-top: -0%;
+    margin-bottom: 1%;
+    /* display: grid;
+    float: right; */
+    color: #84716B;
+    /* font-family:  'Open Sans Condensed', sans-serif; */
+    font-size: 20px;
+}
+.num{
+    display:none;
+}
+.num1{
+    font-size: 5vw;
+}
+.infoWa{
+    /* margin-left: 30%; */
+    font-size: 15vw;
+    text-decoration: none;
+    color: #84716B;
+}
+.btnF{
+    display: flex;
+    float: left;
+    margin-top: 40%;
+    margin-left:80%;
+    background: #84716B;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.fa-facebook-f{
+    margin-left: 100%;
+    float: none;
+    cursor: pointer;
+    color: #D7D4C8;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.btnI{
+    display: flex;
+    float: left;
+    margin-left:80%;
+    margin-top: 60%;
+    background: #84716B;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-instagram{
+    margin-left: 20%;
+    float: none;
+    cursor: pointer;
+    color: #D7D4C8;
+    text-decoration: none;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
 }

@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.5077ba94.chunk.css",
-  "main.js": "/static/js/main.74921848.chunk.js",
-  "main.js.map": "/static/js/main.74921848.chunk.js.map",
-  "static/js/1.598b1905.chunk.js": "/static/js/1.598b1905.chunk.js",
-  "static/js/1.598b1905.chunk.js.map": "/static/js/1.598b1905.chunk.js.map",
+  "main.css": "/static/css/main.077450d1.chunk.css",
+  "main.js": "/static/js/main.9b6dc9a8.chunk.js",
+  "main.js.map": "/static/js/main.9b6dc9a8.chunk.js.map",
+  "static/js/1.51f7b557.chunk.js": "/static/js/1.51f7b557.chunk.js",
+  "static/js/1.51f7b557.chunk.js.map": "/static/js/1.51f7b557.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/prueba1.svg": "/static/media/prueba1.d0564c78.svg",
@@ -24,8 +24,8 @@
   "static/media/cnatural.svg": "/static/media/cnatural.cc6e3271.svg",
   "static/media/cnaturalF.svg": "/static/media/cnaturalF.72fa1db0.svg",
   "static/media/dashboard.css": "/static/media/mariposa2A.3dc14be8.svg",
-  "static/css/main.5077ba94.chunk.css.map": "/static/css/main.5077ba94.chunk.css.map",
+  "static/css/main.077450d1.chunk.css.map": "/static/css/main.077450d1.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.32e78c112ca967012c2b8852b4e493e1.js": "/precache-manifest.32e78c112ca967012c2b8852b4e493e1.js",
+  "precache-manifest.6de2e31c5b991cf2ed0d39ee29d22751.js": "/precache-manifest.6de2e31c5b991cf2ed0d39ee29d22751.js",
   "service-worker.js": "/service-worker.js"
 }
