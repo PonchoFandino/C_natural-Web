@@ -17,10 +17,10 @@
 .spaceT{
     position: relative;
     display: grid;
-    margin-top: 300px;
+    margin-top: 4%;
     width: 91%;
     height: 100%;
-    background:rgb(233, 233, 233);
+    background:#D7D4C8;
     align-items: center;
     padding: 1% 4.5%;
     
@@ -33,4 +33,18 @@
     float: left;
     width: 130px;
     margin: -30px 10px;
+}
+@media screen and (max-width:740px) {
+    .spaceT{
+        /* position: relative; */
+        display: block;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        background:#D7D4C8;
+        align-items: center;
+        padding: 0%;
+        box-sizing: border-box;
+        
+    }  
 }

@@ -1,12 +1,14 @@
 /*  */
 .bodyFoot{
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     color:#84716B;
     background: #D7D4C8;
     width: 100%;
-    height: auto;
+    height: 250px;
     text-align: left;
+    z-index: 1;
 }
 .backF{
     background:#D7D4C8;

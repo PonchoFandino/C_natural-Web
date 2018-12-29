@@ -9,12 +9,13 @@
 .space{
   /* position: relative; */
   display: block;
-  margin-top: 0px;
+  margin-top: 50px;
   width:100%;
   height: auto;
-  background: #D0CABD;
+  background:  #D7D4C8;
   align-items: center;
-  padding: 0;
+  padding: 1% 4.5%;
+  box-sizing: border-box;
   
 }
 .wellcomeMargin{
@@ -271,9 +272,10 @@
       margin-top: 0px;
       width:100%;
       height: auto;
-      background: #D0CABD;
+      background:  #D7D4C8;
       align-items: center;
-      padding: 0;
+      text-align: center;
+      padding: 3% 4.5%;
       
     }
     .wellcome3{
@@ -344,14 +346,14 @@
   /*movil standar*/
 @media screen and (max-width:740px){
     .space{
-      /* position: relative;*/
+      position: relative;
       display: block; 
       margin-top: -80%;
       width:100%;
       height: auto;
-      background: #D0CABD;
+      background: #D7D4C8;
       align-items: center;
-      padding: 5%;
+      padding: 0%;
       box-sizing: border-box;
       
     }

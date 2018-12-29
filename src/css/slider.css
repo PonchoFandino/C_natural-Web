@@ -34,53 +34,53 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
-    animation: imagenes 25s linear infinite;
-    -moz-animation: imagenes 25s linear infinite;
-    -ms-animation: imagenes 25s linear infinite;
-    -o-animation: imagenes 25s linear infinite;
-    -webkit-animation: imagenes 25s linear infinite;
+    animation: imagenes 30s linear infinite;
+    -moz-animation: imagenes 30s linear infinite;
+    -ms-animation: imagenes 30s linear infinite;
+    -o-animation: imagenes 30s linear infinite;
+    -webkit-animation: imagenes 30s linear infinite;
 
 }
 .backgroundSlider li:nth-child(1){
     background-image: url(https://images.pexels.com/photos/1699104/pexels-photo-1699104.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     
-    animation-delay: 3s;
-    -moz-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    -o-animation-delay: 3s;
-    -webkit-animation-delay: 3s;
-}
-.backgroundSlider li:nth-child(2){
-    background-image: url(https://images.pexels.com/photos/810036/pexels-photo-810036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     animation-delay: 5s;
     -moz-animation-delay: 5s;
     -ms-animation-delay: 5s;
     -o-animation-delay: 5s;
     -webkit-animation-delay: 5s;
 }
-.backgroundSlider li:nth-child(3){
-    background-image: url(https://images.pexels.com/photos/1037768/pexels-photo-1037768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+.backgroundSlider li:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/1734910/pexels-photo-1734910.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     animation-delay: 10s;
     -moz-animation-delay: 10s;
     -ms-animation-delay: 10s;
     -o-animation-delay: 10s;
     -webkit-animation-delay: 10s;
 }
-.backgroundSlider li:nth-child(4){
-    background-image: url(https://images.pexels.com/photos/5963/typography-vintage-wooden-box.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+.backgroundSlider li:nth-child(3){
+    background-image: url(https://images.pexels.com/photos/1734992/pexels-photo-1734992.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     animation-delay: 15s;
     -moz-animation-delay: 15s;
     -ms-animation-delay: 15s;
     -o-animation-delay: 15s;
     -webkit-animation-delay: 15s;
 }
-.backgroundSlider li:nth-child(5){
-    background-image: url(https://images.pexels.com/photos/256505/pexels-photo-256505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+.backgroundSlider li:nth-child(4){
+    background-image: url(https://images.pexels.com/photos/1735049/pexels-photo-1735049.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     animation-delay: 20s;
     -moz-animation-delay: 20s;
     -ms-animation-delay: 20s;
     -o-animation-delay: 20s;
     -webkit-animation-delay: 20s;
+}
+.backgroundSlider li:nth-child(5){
+    background-image: url(https://images.pexels.com/photos/1735062/pexels-photo-1735062.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    animation-delay: 25s;
+    -moz-animation-delay: 25s;
+    -ms-animation-delay: 25s;
+    -o-animation-delay: 25s;
+    -webkit-animation-delay: 25s;
 }
 
 @keyframes imagenes{

@@ -41,7 +41,7 @@ class Nav extends Component {
         <nav className="contenedor">
         <div className="navBar"  id="navi">
             <Link  className="button2" to="/" ><p className=""><img src={logoHome} alt="" className="home"/></p></Link>
-        <input type="checkbox" id="main"/>
+        <input type="checkbox" id="main" />
         <label for="main" className="menu"><i class="fas fa-ellipsis-v"></i></label>
           <div className="nav1">
             
